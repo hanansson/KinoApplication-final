@@ -1,4 +1,4 @@
 # KinoApplication-final
 
-Noch komplettes Chaoes!!!!!
+Noch komplettes Chaos!!!!!
 Aber das Programm funktioniert in seinen Grundzügen.
