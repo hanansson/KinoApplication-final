@@ -3,14 +3,56 @@ Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 2
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:00 Preis: 10.50€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 14:30 Preis: 13.50€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:00 Preis: 10.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:30 Preis: 8.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:00 Preis: 8.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:30 Preis: 8.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 20:00 Preis: 8.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:30 Preis: 8.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:00 Preis: 8.00€
+Name: Tad Stones und das Geheimnis von König Midas Genre: Animation Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Tad Stones und das Geheimnis von König Midas Genre: Animation Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:45 Preis: 9.50€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:45 Preis: 9.50€
+Name: Insidious-The Last Key Genre: Horrorfilm Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 22:30 Preis: 9.50€
+Name: Insidious-The Last Key Genre: Horrorfilm Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 22:30 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 15:15 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 12:45 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 15:15 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 12:45 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 15:15 Preis: 9.50€
+Name: Insidious-The Last Key Genre: Horrorfilm Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 23:00 Preis: 9.50€
+Name: Insidious-The Last Key Genre: Horrorfilm Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 23:00 Preis: 9.50€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 17:45 Preis: 9.50€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 17:45 Preis: 9.50€
 Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 26.01.2018 Preis: 15:00
 Name: Star Wars:Die Letzten Jedi Genre: 3D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 26.01.2018 Preis: 19:30
 Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 27.01.2018 Preis: 15:00
 Name: Star Wars:Die Letzten Jedi Genre: 3D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 27.01.2018 Preis: 19:30
 Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 28.01.2018 Preis: 15:00
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:20 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 15:20 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:20 Preis: 9.50€
+Name: Tad Stones und das Geheimnis von König Midas Genre: Animation Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Tad Stones und das Geheimnis von König Midas Genre: Animation Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 17:00 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 19:45 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 22:45 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 17:00 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 19:45 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 22:45 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 12:00 Preis: 6.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 17:00 Preis: 9.50€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 19:45 Preis: 9.50€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:00 Preis: 6.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Insidious-The Last Key Genre: Horror Kino: Universum Soest Datum: 27.01.2018 Zeit: 22:45 Preis: 7.50€
+Name: Greatest Showman Genre: Biographie Kino: Universum Soest Datum: 28.01.2018 Zeit: 11:00 Preis: 6.00€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation Kino: Universum Soest Datum: 27.01.2018 Zeit: 13:30 Preis: 6.00€
+Name: Hilfe,unser Lehrer ist ein Frosch Genre: Kinderfilm Kino: Universum Soest Datum: 26.01.2018 Zeit: 09:00 Preis: 3.50€
+Name: Storm und der verbotene Brief Genre: Abenteuer/Kinderfilm Kino: Universum Soest Datum: 26.01.2018 Zeit: 11:00 Preis: 3.50€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 17:00 Preis: 9.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 19:45 Preis: 9.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 22:30 Preis: 9.00€
@@ -19,3 +61,22 @@ Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 2
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 22:30 Preis: 9.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:00 Preis: 9.00€
 Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 19:45 Preis: 9.00e
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 17:15 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:00 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:15 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 19:45 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:15 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:15 Preis: 9.00€
+Name: Greatest Showman Genre: Biographie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:00 Preis: 9.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:30 Preis: 9.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 20:30 Preis: 9.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:30 Preis: 9.00€
+Name: Insidious-The Last Key Genre: Horror Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 21:50 Preis: 9.00€
+Name: Insidious-The Last Key Genre: Horror Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 21:50 Preis: 9.00€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 15:25 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 12:40 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 15:25 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:40 Preis: 9.50€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 14:40 Preis: 9.50€

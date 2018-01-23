@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
@@ -14,6 +15,8 @@ public class Favoritenliste {
     private Favoriten m1;
 
     public void favoritenlisteFunktionen(JFrame frame) {
+
+        flPanel.setPreferredSize(flPanel.getPreferredSize());
 
         this.hm1 = new Hauptmenu(frame);
         this.m1 = new Favoriten();
@@ -44,6 +47,8 @@ public class Favoritenliste {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(hm1.hmPanel);
+                hm1.hmPanel.setPreferredSize(hm1.hmPanel.getPreferredSize());
+                frame.setSize(400, 300);
                 frame.invalidate();
                 frame.validate();
             }

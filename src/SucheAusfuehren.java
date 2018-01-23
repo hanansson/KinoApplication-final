@@ -1,6 +1,7 @@
 import org.w3c.dom.Attr;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
@@ -24,6 +25,7 @@ public class SucheAusfuehren {
     public ArrayList<Filmeintrag> gesamtEinträge = new java.util.ArrayList<Filmeintrag>();
     private Favoriten merkliste;
     Filter kategorien = new Filter();
+
 
     public void sucheAusfuehren(JFrame frame) {
 
@@ -134,9 +136,9 @@ public class SucheAusfuehren {
                     String s1 = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
                     merkliste.writeToFile1(s1);
                 }
-                    String ergebnisse = "Keine Filme gefunden.";
+                String ergebnisse = "Keine Filme gefunden.";
                 try {
-                    ergebnisse=kategorien.ergebnisaufnahme();
+                    ergebnisse = kategorien.ergebnisaufnahme();
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
@@ -152,6 +154,8 @@ public class SucheAusfuehren {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(hm1.hmPanel);
+                hm1.hmPanel.setPreferredSize(hm1.hmPanel.getPreferredSize());
+                frame.setSize(400, 300);
                 frame.invalidate();
                 frame.validate();
             }
