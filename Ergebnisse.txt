@@ -1,6 +1,1 @@
-Name: Star Wars Genre: Sci-Fi Kino: cineplex Zeit: 20:15 Preis: 18,50€
-Name: Star Wars Genre: Sci-Fi Kino: cineplex Zeit: 18:00 Preis: 18,50€
-Name: Star Wars Genre: Sci-Fi Kino: cinestar Zeit: 20:15 Preis: 18,50€
-Name: Star Wars Genre: Sci-Fi Kino: cinestar Zeit: 18:00 Preis: 18,50€
 Name: Filmzwei Genre: Drama Kino: cineplex Zeit: 21:00 Preis: 12,00€
-Name: Filmzwei Genre: Drama Kino: cinestar Zeit: 14:30 Preis: 9,50€

@@ -17,7 +17,8 @@ public class Favoritenliste {
 
         this.hm1 = new Hauptmenu(frame);
         this.m1 = new Favoriten();
-        String gespeichertefavoriten = "Keine Favoriten";
+        // String gespeichertefavoriten = "Keine Favoriten";
+        String gespeichertefavoriten = null;
         try {
             gespeichertefavoriten = kategorien.favoritenaufnahme();
         } catch (IOException e1) {
@@ -34,8 +35,8 @@ public class Favoritenliste {
                 } catch (FileNotFoundException e1) {
                     e1.printStackTrace();
                 }
-                String keinefavoriten = "Keine Favoriten";
-                FlFeld.setText(keinefavoriten);
+               // String keinefavoriten = "Keine Favoriten";
+                FlFeld.setText(null);
             }
         });
 

@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,6 +16,7 @@ public class Hauptmenu extends JFrame {
         Hauptmenu haupt1 = new Hauptmenu(frame);
         frame.setContentPane(haupt1.hmPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setPreferredSize(new Dimension(800, 600));
         frame.pack();
         frame.setVisible(true);
     }
