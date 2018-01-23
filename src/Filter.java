@@ -1,6 +1,3 @@
-
-import org.apache.commons.io.FileUtils;
-
 import java.io.*;
 
 public class Filter {
@@ -11,11 +8,12 @@ public class Filter {
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
-
-            while (line != null) {
-                sb.append(line);
-                sb.append("\n");
-                line = br.readLine();
+            int i = 0;
+            while (line != null && i < 20) {
+                    i ++;
+                    sb.append(line);
+                    sb.append("\n");
+                    line = br.readLine();
             }
             return sb.toString();
         } finally {

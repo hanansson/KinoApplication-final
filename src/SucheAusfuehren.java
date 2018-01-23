@@ -1,3 +1,5 @@
+import org.w3c.dom.Attr;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,13 +9,15 @@ import java.util.ArrayList;
 public class SucheAusfuehren {
 
     private JButton suchenButton;
-    private JTextField NameFeld;
     public JPanel saPanel;
-    private JTextField GenreFeld;
-    private JTextField KinoFeld;
-    private JTextField PreisFeld;
-    private JTextField ZeitFeld;
+
     private JButton zurückButton;
+    private JTextField FilmFeld;
+    private JComboBox GenreCombo;
+    private JComboBox KinoCombo;
+    private JComboBox PreisCombo;
+    private JTextField ZeitFeld;
+    private JComboBox DatumCombo;
     private Hauptmenu hm1;
     private Suchergebnisse se1;
 
@@ -26,6 +30,62 @@ public class SucheAusfuehren {
         this.se1 = new Suchergebnisse();
         this.hm1 = new Hauptmenu(frame);
         this.merkliste = new Favoriten();
+
+        String zeile1 = null;
+
+        this.GenreCombo.getModel();
+        this.KinoCombo.getModel();
+        this.DatumCombo.getModel();
+        this.PreisCombo.getModel();
+
+        GenreCombo.addItem("");
+        KinoCombo.addItem("");
+        DatumCombo.addItem("");
+        PreisCombo.addItem("");
+
+        try {
+            BufferedReader brx1 = new BufferedReader(new FileReader("Genre.txt"));
+            while (brx1.ready()) {
+                if ((zeile1 = brx1.readLine()) != null) {
+                    GenreCombo.addItem(zeile1);
+                }
+            }
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+
+        try {
+            BufferedReader brx1 = new BufferedReader(new FileReader("Kino.txt"));
+            while (brx1.ready()) {
+                if ((zeile1 = brx1.readLine()) != null) {
+                    KinoCombo.addItem(zeile1);
+                }
+            }
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+
+        try {
+            BufferedReader brx1 = new BufferedReader(new FileReader("Datum.txt"));
+            while (brx1.ready()) {
+                if ((zeile1 = brx1.readLine()) != null) {
+                    DatumCombo.addItem(zeile1);
+                }
+            }
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+
+        try {
+            BufferedReader brx1 = new BufferedReader(new FileReader("Preis.txt"));
+            while (brx1.ready()) {
+                if ((zeile1 = brx1.readLine()) != null) {
+                    PreisCombo.addItem(zeile1);
+                }
+            }
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
 
         suchenButton.addActionListener(new ActionListener() {
             @Override
@@ -46,19 +106,20 @@ public class SucheAusfuehren {
 
                 String zeile = null;
 
-                String eingabe = NameFeld.getText();
-                String eingabe1 = GenreFeld.getText();
-                String eingabe2 = KinoFeld.getText();
-                String eingabe3 = ZeitFeld.getText();
-                String eingabe4 = PreisFeld.getText();
+                String eingabe = FilmFeld.getText();
+                String eingabe1 = (String) GenreCombo.getSelectedItem();
+                String eingabe2 = (String) KinoCombo.getSelectedItem();
+                String eingabe3 = (String) DatumCombo.getSelectedItem();
+                String eingabe4 = ZeitFeld.getText();
+                String eingabe5 = (String) PreisCombo.getSelectedItem();
 
                 try {
-                    BufferedReader brx = new BufferedReader(new FileReader("filmdaten.txt"));
+                    BufferedReader brx = new BufferedReader(new FileReader("kinoliste.txt"));
                     while (brx.ready()) {
                         if ((zeile = brx.readLine()) != null) {
                             Filmeintrag neuerFilmeintrag = new Filmeintrag();
                             Suche s = new Suche();
-                            s.suche1(zeile, eingabe, eingabe1, eingabe2, eingabe3, eingabe4, neuerFilmeintrag);
+                            s.suche1(zeile, eingabe, eingabe1, eingabe2, eingabe3, eingabe4, eingabe5, neuerFilmeintrag);
                             if (neuerFilmeintrag.name != null) {
                                 //random Bedingung ...geht sicherlich auch schöner.
                                 gesamtEinträge.add(neuerFilmeintrag);
@@ -66,10 +127,11 @@ public class SucheAusfuehren {
                         }
                     }
                 } catch (IOException e1) {
+
                     e1.printStackTrace();
                 }
                 for (int i = 0; i < gesamtEinträge.size(); i++) {
-                    String s1 = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
+                    String s1 = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
                     merkliste.writeToFile1(s1);
                 }
                     String ergebnisse = "Keine Filme gefunden.";

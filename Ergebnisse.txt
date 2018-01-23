@@ -1,1 +1,21 @@
-Name: Filmzwei Genre: Drama Kino: cineplex Zeit: 21:00 Preis: 12,00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:00 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 14:30 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 14:30 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 26.01.2018 Preis: 15:00
+Name: Star Wars:Die Letzten Jedi Genre: 3D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 26.01.2018 Preis: 19:30
+Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 27.01.2018 Preis: 15:00
+Name: Star Wars:Die Letzten Jedi Genre: 3D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 27.01.2018 Preis: 19:30
+Name: Star Wars:Die Letzten Jedi Genre: 2D Kino: Sci-Fi Datum: Cineplex Hamm Zeit: 28.01.2018 Preis: 15:00
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 19:45 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 22:30 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 22:30 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 19:45 Preis: 9.00e

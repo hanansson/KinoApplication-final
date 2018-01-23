@@ -16,7 +16,7 @@ public class Hauptmenu extends JFrame {
         Hauptmenu haupt1 = new Hauptmenu(frame);
         frame.setContentPane(haupt1.hmPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setPreferredSize(new Dimension(800, 600));
+        frame.setPreferredSize(new Dimension(1000, 800));
         frame.pack();
         frame.setVisible(true);
     }
