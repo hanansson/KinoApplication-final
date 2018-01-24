@@ -140,6 +140,8 @@ public class SucheAusfuehren {
                     e1.printStackTrace();
                 }
 
+                //System.out.println(ergebnisse);
+
                 frame.setContentPane(se1.sePanel);
                 se1.ergebnisanzeigen(ergebnisse, frame);
                 frame.invalidate();

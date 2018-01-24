@@ -12,7 +12,7 @@ public class Filter {
             while (line != null && i < 20) {
                     i ++;
                     sb.append(line);
-                    sb.append("\n");
+                    //sb.append("\n");
                     line = br.readLine();
             }
             return sb.toString();
@@ -26,7 +26,6 @@ public class Filter {
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
-
             while (line != null) {
                 sb.append(line);
                 sb.append("\n");

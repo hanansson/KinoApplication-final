@@ -35,7 +35,7 @@ public class Favoritenliste {
             public void actionPerformed(ActionEvent e) {
                 try {
                     m1.loeschen();
-                } catch (FileNotFoundException e1) {
+                } catch (IOException e1) {
                     e1.printStackTrace();
                 }
                // String keinefavoriten = "Keine Favoriten";

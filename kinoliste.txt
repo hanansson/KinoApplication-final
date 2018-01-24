@@ -118,11 +118,11 @@ Jumanji;Abenteuer/Action/Fantasy;Cineplex Hamm;27.01.2018;22:50;11.50€
 Jumanji;Abenteuer/Action/Fantasy;Cineplex Hamm;28.01.2018;15:00;11.00€
 Jumanji;Abenteuer/Action/Fantasy;Cineplex Hamm;28.01.2018;17:30;11.50€
 Jumanji;Abenteuer/Action/Fantasy;Cineplex Hamm;28.01.2018;20:10;11.50€
-Star Wars:Die Letzten Jedi;2D;Sci-Fi;Cineplex Hamm;26.01.2018;15:00;10.50€
-Star Wars:Die Letzten Jedi;3D;Sci-Fi;Cineplex Hamm;26.01.2018;19:30;11.50€
-Star Wars:Die Letzten Jedi;2D;Sci-Fi;Cineplex Hamm;27.01.2018;15:00;10.50€
-Star Wars:Die Letzten Jedi;3D;Sci-Fi;Cineplex Hamm;27.01.2018;19:30;11.50€
-Star Wars:Die Letzten Jedi;2D;Sci-Fi;Cineplex Hamm;28.01.2018;15:00;10.50€
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Hamm;26.01.2018;15:00;10.50€
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Hamm;26.01.2018;19:30;11.50€
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Hamm;27.01.2018;15:00;10.50€
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Hamm;27.01.2018;19:30;11.50€
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Hamm;28.01.2018;15:00;10.50€
 Hilfe,ich hab meine Eltern geschrumpft;Komödie;Cineplex Hamm;26.01.2018;15:10;9.50€
 Hilfe,ich hab meine Eltern geschrumpft;Komödie;Cineplex Hamm;27.01.2018;13:00;9.50€
 Hilfe,ich hab meine Eltern geschrumpft;Komödie;Cineplex Hamm;27.01.2018;15:10;9.50€
@@ -250,7 +250,7 @@ Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;27.01.2018;17:00;9.00€
 Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;27.01.2018;17:00;9.00€
 Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;27.01.2018;22:30;9.00€
 Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;28.01.2018;17:00;9.00€
-Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;28.01.2018;19:45;9.00e
+Star Wars:Die Letzten Jedi;Sci-Fi;Cineplex Paderborn;28.01.2018;19:45;9.00€
 Loving Vincent;Animation/Biographie/Drama;Cineplex Paderborn;26.01.2018;14:30;9.00€
 Loving Vincent;Animation/Biographie/Drama;Cineplex Paderborn;27.01.2018;14:30;9.00€
 Loving Vincent;Animation/Biographie/Drama;Cineplex Paderborn;28.01.2018;12:30;9.00€
