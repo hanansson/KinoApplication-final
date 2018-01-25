@@ -1,10 +1,23 @@
-Name: Das Leuchten der Erinnerung Genre: Abenteuer/Drama Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:15 Preis: 8.50€
-Name: Das Leuchten der Erinnerung Genre: Abenteuer/Drama Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:15 Preis: 8.50€
-Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:15 Preis: 12.50€
-Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 20:15 Preis: 12.50€
-Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:15 Preis: 12.50€
-Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:15 Preis: 9.00€
-Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 20:15 Preis: 9.00€
-Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:15 Preis: 9.00€
-Name: The Commuter Genre: Action/Thriller Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:15 Preis: 9.00€
-Name: The Commuter Genre: Action/Thriller Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:15 Preis: 9.00€
+Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 6.00€
+Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 6.00€
+Name: Die dunkelste Stunde Genre: Biographie/Drama/Historienfilm Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 12:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Wunder Genre: Drama Kino:  Universum Soest Datum: 26.01.2018 Zeit: 15:30 Preis: 6.00€
+Name: Wunder Genre: Drama Kino:  Universum Soest Datum: 27.01.2018 Zeit: 15:30 Preis: 6.00€
+Name: Wunder Genre: Drama Kino:  Universum Soest Datum: 28.01.2018 Zeit: 11:00 Preis: 6.00€
+Name: Wunder Genre: Drama Kino:  Universum Soest Datum: 28.01.2018 Zeit: 15:30 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 14:30 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:30 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 14:00 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 14:00 Preis: 6.00€
+Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Dieses bescheuerte Herz Genre: Drama Kino: Universum Soest Datum: 28.01.2018 Zeit: 11:00 Preis: 6.00€
+Name: Greatest Showman Genre: Biographie Kino: Universum Soest Datum: 28.01.2018 Zeit: 11:00 Preis: 6.00€
+Name: Ferdinand-Geht STIERisch ab! Genre: Animation Kino: Universum Soest Datum: 27.01.2018 Zeit: 13:30 Preis: 6.00€
+Name: Jumanji: Willkommen im Dschungel Genre: Action/Fantasy Kino: Universum Soest Datum: 27.01.2018 Zeit: 13:30 Preis: 6.00€
+Name: Jumanji: Willkommen im Dschungel Genre: Action/Fantasy Kino: Universum Soest Datum: 28.01.2018 Zeit: 13:30 Preis: 6.00€
+Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 12:10 Preis: 6.00€
+Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:10 Preis: 6.00€
