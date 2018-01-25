@@ -18,7 +18,6 @@ public class ListenVerwaltung {
             br.close();
         }
     }
-    //
 
     String favoritenaufnahme() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("Favoritenliste.txt"));
@@ -46,7 +45,6 @@ public class ListenVerwaltung {
             e.printStackTrace();
         }
     }
-
 
     public void writeToFavoritenliste(String s) {
         try (FileWriter fw = new FileWriter("Favoritenliste.txt", true);

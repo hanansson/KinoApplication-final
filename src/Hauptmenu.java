@@ -3,15 +3,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Hauptmenu extends JFrame {
-    private JButton Suchbutton;
+    private JButton sucheButton;
     public JPanel hmPanel;
-    private JButton Favoritenbutton;
-    private JButton Beendenbutton;
+    private JButton favoritenButton;
+    private JButton beendenButton;
     private Suche sa1;
     private Favoriten fl1;
 
 
     public static void main (String[] args){
+
         JFrame frame = new JFrame("Filmfinder");
         Hauptmenu haupt1 = new Hauptmenu(frame);
         frame.setContentPane(haupt1.hmPanel);
@@ -27,7 +28,7 @@ public class Hauptmenu extends JFrame {
         this.sa1 = new Suche();
         this.fl1 = new Favoriten();
 
-        Suchbutton.addActionListener(new ActionListener() {
+        sucheButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(sa1.saPanel);
@@ -38,7 +39,7 @@ public class Hauptmenu extends JFrame {
             }
 
         });
-        Favoritenbutton.addActionListener(new ActionListener() {
+        favoritenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(fl1.flPanel);
@@ -49,7 +50,7 @@ public class Hauptmenu extends JFrame {
             }
         });
 
-        Beendenbutton.addActionListener(new ActionListener() {
+        beendenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);

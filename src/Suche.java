@@ -9,7 +9,7 @@ public class Suche {
     private JButton suchenButton;
     public JPanel saPanel;
 
-    private JButton zurückButton;
+    private JButton hauptmenuButton;
     private JTextField FilmFeld;
     private JComboBox GenreCombo;
     private JComboBox KinoCombo;
@@ -18,7 +18,6 @@ public class Suche {
     private JComboBox DatumCombo;
     private Hauptmenu hm1;
     private Suchergebnisse se1;
-    //private KeineFilmeintraege kf1;
 
     public ArrayList<Filmeintrag> gesamtEinträge = new java.util.ArrayList<Filmeintrag>();
     private ListenVerwaltung liste;
@@ -27,7 +26,6 @@ public class Suche {
 
         this.se1 = new Suchergebnisse();
         this.hm1 = new Hauptmenu(frame);
-        //this.kf1 = new KeineFilmeintraege();
         this.liste = new ListenVerwaltung();
 
         String zeile1 = null;
@@ -129,20 +127,10 @@ public class Suche {
                     e1.printStackTrace();
                 }
 
-                /*int ii = gesamtEinträge.size();
-
-                if(ii >= 0) {*/
                     for (int i = 0; i < gesamtEinträge.size(); i++) {
                         String s1 = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
                         liste.writeToErgebnisliste(s1);
                     }
-                /*} else {
-                    JFrame frame1 = new JFrame("Hinweis");
-                    frame1.setVisible(true);
-                    frame1.setContentPane(kf1.kfPanel);
-                    frame1.setSize(300, 200);
-                    kf1.akzeptieren(frame1);
-                }*/
 
                 String ergebnisse = "Keine Filme gefunden.";
                 try {
@@ -158,7 +146,7 @@ public class Suche {
             }
         });
 
-        zurückButton.addActionListener(new ActionListener() {
+        hauptmenuButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(hm1.hmPanel);

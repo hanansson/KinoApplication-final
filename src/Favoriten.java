@@ -7,20 +7,20 @@ public class Favoriten {
     private JTextArea FlFeld;
     public JPanel flPanel;
     private JButton loeschenButton;
-    private JButton zurückButton;
+    private JButton hauptmenuButton;
     private Hauptmenu hm1;
-    ListenVerwaltung liste = new ListenVerwaltung();
-    private ListenVerwaltung m1;
+    private ListenVerwaltung lv1;
 
     public void favoritenlisteFunktionen(JFrame frame) {
 
         flPanel.setPreferredSize(flPanel.getPreferredSize());
 
         this.hm1 = new Hauptmenu(frame);
-        this.m1 = new ListenVerwaltung();
+        this.lv1 = new ListenVerwaltung();
         String gespeicherteFavoriten = null;
+
         try {
-            gespeicherteFavoriten = liste.favoritenaufnahme();
+            gespeicherteFavoriten = lv1.favoritenaufnahme();
         } catch (IOException e1) {
             e1.printStackTrace();
         }
@@ -31,7 +31,7 @@ public class Favoriten {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    m1.favoritenLoeschen();
+                    lv1.favoritenLoeschen();
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
@@ -39,7 +39,7 @@ public class Favoriten {
             }
         });
 
-        zurückButton.addActionListener(new ActionListener() {
+        hauptmenuButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(hm1.hmPanel);
