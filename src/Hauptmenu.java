@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -7,6 +8,7 @@ public class Hauptmenu extends JFrame {
     public JPanel hmPanel;
     private JButton favoritenButton;
     private JButton beendenButton;
+    private JLabel filmfinder;
     private Suche sa1;
     private Favoriten fl1;
 
@@ -23,6 +25,7 @@ public class Hauptmenu extends JFrame {
 
     public Hauptmenu(JFrame frame) {
 
+        filmfinder.setForeground(Color.GRAY);
         hmPanel.setPreferredSize(hmPanel.getPreferredSize());
 
         this.sa1 = new Suche();
