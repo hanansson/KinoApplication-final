@@ -1,50 +1,53 @@
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class Favoriten {
+    private JTextArea FlFeld;
+    public JPanel flPanel;
+    private JButton loeschenButton;
+    private JButton zurückButton;
+    private Hauptmenu hm1;
+    ListenVerwaltung kategorien = new ListenVerwaltung();
+    private ListenVerwaltung m1;
 
-    public ArrayList<Filmeintrag> gesamtEinträge;
+    public void favoritenlisteFunktionen(JFrame frame) {
 
-    public void writeToFile1(String s1) {
+        flPanel.setPreferredSize(flPanel.getPreferredSize());
 
-        try (FileWriter fw1 = new FileWriter("Ergebnisse.txt", true);
-             BufferedWriter bw1 = new BufferedWriter(fw1);
-             PrintWriter out = new PrintWriter(bw1)) {
-            out.println(s1);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-    public void writeToFile(String s) {
-        try (FileWriter fw = new FileWriter("Merkliste.txt", true);
-             BufferedWriter bw = new BufferedWriter(fw);
-             PrintWriter out = new PrintWriter(bw)) {
-            out.println(s);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        //System.out.println(ergebnisse);
-    }
-    /*public void loeschen() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("Merkliste.txt"));
+        this.hm1 = new Hauptmenu(frame);
+        this.m1 = new ListenVerwaltung();
+        String gespeicherteFavoriten = null;
         try {
-            StringBuilder sb = new StringBuilder();
-            String line = br.readLine();
-            while (line != null) {
-                sb.append("");
-                line = br.readLine();
-            }
-        } finally {
-            br.close();
+            gespeicherteFavoriten = kategorien.favoritenaufnahme();
+        } catch (IOException e1) {
+            e1.printStackTrace();
         }
-    }*/
-    public void loeschen() throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("Merkliste.txt");
-        writer.print("");
-        writer.close();
+        FlFeld.setText(gespeicherteFavoriten);
+
+
+        loeschenButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    m1.favoritenLoeschen();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+                FlFeld.setText(null);
+            }
+        });
+
+        zurückButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.setContentPane(hm1.hmPanel);
+                hm1.hmPanel.setPreferredSize(hm1.hmPanel.getPreferredSize());
+                frame.setSize(400, 300);
+                frame.invalidate();
+                frame.validate();
+            }
+        });
     }
 }

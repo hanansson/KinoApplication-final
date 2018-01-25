@@ -1,6 +1,0 @@
-Star Wars;Sci-Fi;cineplex;28.01.2018;20:15;18,50€
-Star Wars;Sci-Fi;cineplex;28.01.2018;18:00;18,50€
-Star Wars;Sci-Fi;cinestar;28.01.2018;20:15;18,50€
-Star Wars;Sci-Fi;cinestar;28.01.2018;18:00;18,50€
-Filmzwei;Drama;cineplex;28.01.2018;21:00;12,00€
-Filmzwei;Drama;cinestar;28.01.2018;14:30;9,50€

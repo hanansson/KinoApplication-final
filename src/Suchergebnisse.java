@@ -51,39 +51,37 @@ public class Suchergebnisse {
     private JCheckBox speichernCheckBox19;
     private JButton favoritenButton;
     private Hauptmenu hm1;
-    private SucheAusfuehren sa1;
-    private Favoriten merkliste;
-    private Favoritenliste fl1;
+    private Suche sa1;
+    private ListenVerwaltung liste;
+    private Favoriten fl1;
 
     public void ergebnisanzeigen(String ergenbnisse, JFrame frame) {
 
-        //System.out.println(ergenbnisse);
-
-        String searchChar = "€";
-        String[] teile = ergenbnisse.split(searchChar);
+            String searchChar = "€";
+            String[] teile = ergenbnisse.split(searchChar);
 
         Class<?> c = this.getClass(); //Suchergebnisse.class blueprint
 
-        for (int i = 0; i < teile.length; i++) {
-            Field f = null;
-            try {
-                f = c.getDeclaredField("eintragarea" + i); //
-                f.setAccessible(true);
-                JTextArea y = (JTextArea) f.get(this);
-                y.setText((teile[i]) + "€");
-            } catch (NoSuchFieldException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
+
+            for (int i = 0; i < teile.length; i++) {
+                Field f = null;
+                try {
+                    f = c.getDeclaredField("eintragarea" + i);
+                    f.setAccessible(true);
+                    JTextArea y = (JTextArea) f.get(this);
+                    y.setText((teile[i]) + "€");
+                } catch (NoSuchFieldException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
             }
-        }
 
             frame.setSize(1200, 800);
-            // zum testen, ob etwas ankommt! System.out.println(ergenbnisse);
             this.hm1 = new Hauptmenu(frame);
-            this.merkliste = new Favoriten();
-            this.sa1 = new SucheAusfuehren();
-            this.fl1 = new Favoritenliste();
+            this.liste = new ListenVerwaltung();
+            this.sa1 = new Suche();
+            this.fl1 = new Favoriten();
 
             hauptmenuButton.addActionListener(new ActionListener() {
                 @Override
@@ -96,130 +94,127 @@ public class Suchergebnisse {
                 }
             });
 
-            //System.out.println(teile[0]);
-
             speichernButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     if (speichernCheckBox0.isSelected()) {
                         if (eintragarea0.getText() != null) {
                             String s = teile [0] + "€";
-                            merkliste.writeToFile(s);
-                            //System.out.println(a);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox1.isSelected()) {
                         if (eintragarea1.getText() != null) {
                             String s = teile [1] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox2.isSelected()) {
                         if (eintragarea2.getText() != null) {
                             String s = teile [2] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox3.isSelected()) {
                         if (eintragarea3.getText() != null) {
                             String s = teile [3] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox4.isSelected()) {
                         if (eintragarea4.getText() != null) {
                             String s = teile [4] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox5.isSelected()) {
                         if (eintragarea5.getText() != null) {
                             String s = teile [5] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox6.isSelected()) {
                         if (eintragarea6.getText() != null) {
                             String s = teile [6] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox7.isSelected()) {
                         if (eintragarea7.getText() != null) {
                             String s = teile [7] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox8.isSelected()) {
                         if (eintragarea8.getText() != null) {
                             String s = teile [8] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox9.isSelected()) {
                         if (eintragarea9.getText() != null) {
                             String s = teile [9] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox10.isSelected()) {
                         if (eintragarea10.getText() != null) {
                             String s = teile [10] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox11.isSelected()) {
                         if (eintragarea11.getText() != null) {
                             String s = teile [11] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox12.isSelected()) {
                         if (eintragarea12.getText() != null) {
                             String s = teile [12] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox13.isSelected()) {
                         if (eintragarea13.getText() != null) {
                             String s = teile [13] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox14.isSelected()) {
                         if (eintragarea14.getText() != null) {
                             String s = teile [14] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox15.isSelected()) {
                         if (eintragarea15.getText() != null) {
                             String s = teile [15] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox16.isSelected()) {
                         if (eintragarea16.getText() != null) {
                             String s = teile [16] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox17.isSelected()) {
                         if (eintragarea17.getText() != null) {
                             String s = teile [17] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox18.isSelected()) {
                         if (eintragarea18.getText() != null) {
                             String s = teile [18] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                     if (speichernCheckBox19.isSelected()) {
                         if (eintragarea19.getText() != null) {
                             String s = teile [19] + "€";
-                            merkliste.writeToFile(s);
+                            liste.writeToFavoritenliste(s);
                         }
                     }
                 }
@@ -230,7 +225,7 @@ public class Suchergebnisse {
                 public void actionPerformed(ActionEvent e) {
                     frame.setContentPane(sa1.saPanel);
                     frame.setSize(400, 300);
-                    sa1.sucheAusfuehren(frame);
+                    sa1.sucheFunktionen(frame);
                     frame.invalidate();
                     frame.validate();
                 }
@@ -240,14 +235,11 @@ public class Suchergebnisse {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(fl1.flPanel);
-                fl1.favoritenlisteFunktionen(frame);
                 frame.setSize(1200, 500);
+                fl1.favoritenlisteFunktionen(frame);
                 frame.invalidate();
                 frame.validate();
             }
         });
-    /*private void createUIComponents() {
-        // TODO: place custom component creation code here
-    }*/
     }
 }

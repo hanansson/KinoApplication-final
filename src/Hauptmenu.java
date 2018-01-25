@@ -7,12 +7,12 @@ public class Hauptmenu extends JFrame {
     public JPanel hmPanel;
     private JButton Favoritenbutton;
     private JButton Beendenbutton;
-    private SucheAusfuehren sa1;
-    private Favoritenliste fl1;
+    private Suche sa1;
+    private Favoriten fl1;
 
 
     public static void main (String[] args){
-        JFrame frame = new JFrame("Hauptmenu");
+        JFrame frame = new JFrame("Filmfinder");
         Hauptmenu haupt1 = new Hauptmenu(frame);
         frame.setContentPane(haupt1.hmPanel);
         frame.setSize(400, 300);
@@ -24,18 +24,19 @@ public class Hauptmenu extends JFrame {
 
         hmPanel.setPreferredSize(hmPanel.getPreferredSize());
 
-        this.sa1 = new SucheAusfuehren();
-        this.fl1 = new Favoritenliste();
+        this.sa1 = new Suche();
+        this.fl1 = new Favoriten();
 
         Suchbutton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setContentPane(sa1.saPanel);
-                sa1.sucheAusfuehren(frame);
+                sa1.sucheFunktionen(frame);
                 frame.setSize(400, 300);
                 frame.invalidate();
                 frame.validate();
             }
+
         });
         Favoritenbutton.addActionListener(new ActionListener() {
             @Override
