@@ -6,16 +6,15 @@ import java.util.ArrayList;
 
 public class Suche {
 
-    private JButton suchenButton;
     public JPanel saPanel;
-
+    private JButton suchenButton;
     private JButton hauptmenuButton;
-    private JTextField FilmFeld;
-    private JComboBox GenreCombo;
-    private JComboBox KinoCombo;
-    private JComboBox PreisCombo;
-    private JTextField ZeitFeld;
-    private JComboBox DatumCombo;
+    private JTextField nameFeld;
+    private JComboBox genreCombo;
+    private JComboBox kinoCombo;
+    private JComboBox preisCombo;
+    private JTextField zeitFeld;
+    private JComboBox datumCombo;
     private Hauptmenu hm1;
     private Suchergebnisse se1;
 
@@ -30,21 +29,21 @@ public class Suche {
 
         String zeile1 = null;
 
-        this.GenreCombo.getModel();
-        this.KinoCombo.getModel();
-        this.DatumCombo.getModel();
-        this.PreisCombo.getModel();
+        this.genreCombo.getModel();
+        this.kinoCombo.getModel();
+        this.datumCombo.getModel();
+        this.preisCombo.getModel();
 
-        GenreCombo.addItem("");
-        KinoCombo.addItem("");
-        DatumCombo.addItem("");
-        PreisCombo.addItem("");
+        genreCombo.addItem("");
+        kinoCombo.addItem("");
+        datumCombo.addItem("");
+        preisCombo.addItem("");
 
         try {
             BufferedReader brx1 = new BufferedReader(new FileReader("Genre.txt"));
             while (brx1.ready()) {
                 if ((zeile1 = brx1.readLine()) != null) {
-                    GenreCombo.addItem(zeile1);
+                    genreCombo.addItem(zeile1);
                 }
             }
             } catch (IOException e1) {
@@ -55,7 +54,7 @@ public class Suche {
             BufferedReader brx1 = new BufferedReader(new FileReader("Kino.txt"));
             while (brx1.ready()) {
                 if ((zeile1 = brx1.readLine()) != null) {
-                    KinoCombo.addItem(zeile1);
+                    kinoCombo.addItem(zeile1);
                 }
             }
         } catch (IOException e1) {
@@ -66,7 +65,7 @@ public class Suche {
             BufferedReader brx1 = new BufferedReader(new FileReader("Datum.txt"));
             while (brx1.ready()) {
                 if ((zeile1 = brx1.readLine()) != null) {
-                    DatumCombo.addItem(zeile1);
+                    datumCombo.addItem(zeile1);
                 }
             }
         } catch (IOException e1) {
@@ -77,7 +76,7 @@ public class Suche {
             BufferedReader brx1 = new BufferedReader(new FileReader("Preis.txt"));
             while (brx1.ready()) {
                 if ((zeile1 = brx1.readLine()) != null) {
-                    PreisCombo.addItem(zeile1);
+                    preisCombo.addItem(zeile1);
                 }
             }
         } catch (IOException e1) {
@@ -103,12 +102,12 @@ public class Suche {
 
                 String zeile = null;
 
-                String eingabe = FilmFeld.getText();
-                String eingabe1 = (String) GenreCombo.getSelectedItem();
-                String eingabe2 = (String) KinoCombo.getSelectedItem();
-                String eingabe3 = (String) DatumCombo.getSelectedItem();
-                String eingabe4 = ZeitFeld.getText();
-                String eingabe5 = (String) PreisCombo.getSelectedItem();
+                String eingabeName = nameFeld.getText();
+                String eingabeGenre = (String) genreCombo.getSelectedItem();
+                String eingabeKino = (String) kinoCombo.getSelectedItem();
+                String eingabeDatum = (String) datumCombo.getSelectedItem();
+                String eingabeZeit = zeitFeld.getText();
+                String eingabePreis = (String) preisCombo.getSelectedItem();
 
                 try {
                     BufferedReader brx = new BufferedReader(new FileReader("Kinoliste.txt"));
@@ -116,7 +115,7 @@ public class Suche {
                         if ((zeile = brx.readLine()) != null) {
                             Filmeintrag neuerFilmeintrag = new Filmeintrag();
                             SucheAusfuehren s = new SucheAusfuehren();
-                            s.vergleichen(zeile, eingabe, eingabe1, eingabe2, eingabe3, eingabe4, eingabe5, neuerFilmeintrag);
+                            s.vergleichen(zeile, eingabeName, eingabeGenre, eingabeKino, eingabeDatum, eingabeZeit, eingabePreis, neuerFilmeintrag);
                             if (neuerFilmeintrag.name != null) {
                                 gesamtEinträge.add(neuerFilmeintrag);
                             }

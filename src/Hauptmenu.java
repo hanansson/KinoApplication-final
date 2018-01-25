@@ -4,8 +4,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Hauptmenu extends JFrame {
-    private JButton sucheButton;
+
     public JPanel hmPanel;
+    private JButton sucheButton;
     private JButton favoritenButton;
     private JButton beendenButton;
     private JLabel filmfinder;

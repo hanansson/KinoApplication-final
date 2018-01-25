@@ -1,9 +1,9 @@
 public class SucheAusfuehren {
 
-    public void vergleichen (String zeile, String eingabe, String eingabe1, String eingabe2, String eingabe3, String eingabe4, String eingabe5, Filmeintrag neuerFilmeintrag) {
+    public void vergleichen (String zeile, String eingabeName, String eingabeGenre, String eingabeKino, String eingabeDatum, String eingabeZeit, String eingabePreis, Filmeintrag neuerFilmeintrag) {
 
         String[] filmeintragAttribute = zeile.split(";");
-        if (filmeintragAttribute[0].toLowerCase().contains(eingabe.toLowerCase()) && filmeintragAttribute[1].toLowerCase().contains(eingabe1.toLowerCase()) && filmeintragAttribute[2].toLowerCase().contains(eingabe2.toLowerCase()) && filmeintragAttribute[3].toLowerCase().contains(eingabe3.toLowerCase()) && filmeintragAttribute[4].toLowerCase().contains(eingabe4.toLowerCase()) && filmeintragAttribute[5].toLowerCase().contains(eingabe5.toLowerCase())) {
+        if (filmeintragAttribute[0].toLowerCase().contains(eingabeName.toLowerCase()) && filmeintragAttribute[1].contains(eingabeGenre) && filmeintragAttribute[2].contains(eingabeKino) && filmeintragAttribute[3].contains(eingabeDatum) && filmeintragAttribute[4].contains(eingabeZeit) && filmeintragAttribute[5].contains(eingabePreis)) {
             eintragerstellen(neuerFilmeintrag, filmeintragAttribute);
         }
     }

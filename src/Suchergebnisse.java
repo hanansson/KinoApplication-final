@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import java.lang.reflect.Field;
 
 public class Suchergebnisse {
+
     public JPanel sePanel;
     private JButton speichernButton;
     private JButton sucheButton;

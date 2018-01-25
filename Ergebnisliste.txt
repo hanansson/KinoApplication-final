@@ -1,1 +1,10 @@
-Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:00 Preis: 13.50€
+Name: Das Leuchten der Erinnerung Genre: Abenteuer/Drama Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:15 Preis: 8.50€
+Name: Das Leuchten der Erinnerung Genre: Abenteuer/Drama Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:15 Preis: 8.50€
+Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:15 Preis: 12.50€
+Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 20:15 Preis: 12.50€
+Name: Jumanji Genre: Abenteuer/Action/Fantasy Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:15 Preis: 12.50€
+Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:15 Preis: 9.00€
+Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 20:15 Preis: 9.00€
+Name: Wunder Genre: Drama Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:15 Preis: 9.00€
+Name: The Commuter Genre: Action/Thriller Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 20:15 Preis: 9.00€
+Name: The Commuter Genre: Action/Thriller Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 20:15 Preis: 9.00€
