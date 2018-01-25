@@ -132,17 +132,19 @@ public class Suche {
                         liste.writeToErgebnisliste(s1);
                     }
 
-                String ergebnisse = "Keine Filme gefunden.";
+                String ergebnisse = null;
                 try {
                     ergebnisse = liste.ergebnisaufnahme();
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
 
+                if (ergebnisse.length() != 0) {
                     frame.setContentPane(se1.sePanel);
                     se1.ergebnisanzeigen(ergebnisse, frame);
                     frame.invalidate();
                     frame.validate();
+                }
             }
         });
 

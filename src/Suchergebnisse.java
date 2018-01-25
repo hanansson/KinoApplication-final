@@ -66,9 +66,8 @@ public class Suchergebnisse {
 
         Class<?> c = this.getClass();
 
-
-        for (int i = 0; i < teile.length; i++) {
-            Field f = null;
+            for (int i = 0; i < teile.length; i++) {
+                Field f = null;
                 try {
                     f = c.getDeclaredField("eintragarea" + i);
                     f.setAccessible(true);
