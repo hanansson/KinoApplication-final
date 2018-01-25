@@ -1,117 +1,21 @@
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 20:00 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 22:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 20:00 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 22:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 20:00 Preis: 9.50€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 19:45 Preis: 10.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:15 Preis: 10.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 19:45 Preis: 10.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 19:45 Preis: 10.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 15:15 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 12:45 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 15:15 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 13:30 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 13:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 15:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 15:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 15:15 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 12:45 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 15:15 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 12:45 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 15:15 Preis: 9.50€
-Name: Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 13:15 Preis: 9.50€
-Name: Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 13:15 Preis: 9.50€
-Name: Downsizing Genre: Drama/Komödie/Science-Fiction Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 17:10 Preis: 10.00€
-Name: Downsizing Genre: Drama/Komödie/Science-Fiction Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 17:10 Preis: 10.00€
-Name: Downsizing Genre: Drama/Komödie/Science-Fiction Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 19:45 Preis: 10.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:10 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 20:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 20:30 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 20:30 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:00 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 15:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:30 Preis: 9.50€
-Name: Herz Genre: Tragikomödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 18:00 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:10 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 15:10 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:10 Preis: 9.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 17:30 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:20 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 15:20 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:20 Preis: 9.50€
-Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 13:00 Preis: 6.00€
-Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 13:00 Preis: 6.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 18:30 Preis: 7.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 20:30 Preis: 8.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 22:45 Preis: 8.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 18:15 Preis: 7.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 20:30 Preis: 8.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 22:45 Preis: 8.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 18:15 Preis: 7.50€
-Name: Hot Dog Genre: Action/Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 20:30 Preis: 8.50€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 14:30 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:30 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 14:00 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 14:00 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 14:40 Preis: 9.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 16:30 Preis: 9.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 13:00 Preis: 8.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 14:40 Preis: 9.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 16:30 Preis: 9.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:30 Preis: 8.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 14:40 Preis: 8.00€
-Name: Hilfe,ich hab meine Eltern geschrumpft Genre: Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 16:30 Preis: 8.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 17:00 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 19:30 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 22:55 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 14:45 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 19:30 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 22:15 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:00 Preis: 9.00€
-Name: Hot Dog Genre: Action/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 19:30 Preis: 9.00€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 18:50 Preis: 9.00€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 12:30 Preis: 9.00€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 18:50 Preis: 9.00€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 14:45 Preis: 9.00€
-Name: Pitch Perfect 3 Genre: Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 18:50 Preis: 9.00e
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 15:10 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 19:40 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 22:45 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 15:10 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 19:40 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 22:45 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 15:10 Preis: 9.00€
-Name: Downsizing Genre: Drama/Komödie/Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 19:40 Preis: 9.00€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 15:25 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 12:40 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 15:25 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:40 Preis: 9.50€
-Name: Ferdinand-Geht STIERisch ab! Genre: Animation/Abenteuer/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 14:40 Preis: 9.50€
-Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 12:10 Preis: 6.00€
-Name: Coco-Lebendiger als das Leben! Genre: Animation/Komödie Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 12:10 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 26.01.2018 Zeit: 17:00 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 14:30 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 27.01.2018 Zeit: 17:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 14:30 Preis: 13.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Lippstadt Datum: 28.01.2018 Zeit: 17:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 15:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Hamm Datum: 26.01.2018 Zeit: 19:30 Preis: 11.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 15:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Hamm Datum: 27.01.2018 Zeit: 19:30 Preis: 11.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Hamm Datum: 28.01.2018 Zeit: 15:00 Preis: 10.50€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 26.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 27.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Universum Soest Datum: 28.01.2018 Zeit: 16:00 Preis: 6.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 19:45 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 26.01.2018 Zeit: 22:30 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 27.01.2018 Zeit: 22:30 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 17:00 Preis: 9.00€
+Name: Star Wars:Die Letzten Jedi Genre: Sci-Fi Kino: Cineplex Paderborn Datum: 28.01.2018 Zeit: 19:45 Preis: 9.00€
