@@ -20,7 +20,7 @@ public class ListenVerwaltung {
     }
 
     String favoritenaufnahme() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("Favoriten.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("Favoritenliste.txt"));
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
@@ -48,7 +48,7 @@ public class ListenVerwaltung {
 
 
     public void writeToFavoritenliste(String s) {
-        try (FileWriter fw = new FileWriter("Favoriten.txt", true);
+        try (FileWriter fw = new FileWriter("Favoritenliste.txt", true);
              BufferedWriter bw = new BufferedWriter(fw);
              PrintWriter out = new PrintWriter(bw)) {
             out.println(s);
@@ -58,7 +58,7 @@ public class ListenVerwaltung {
     }
 
     public void favoritenLoeschen() throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("Favoriten.txt");
+        PrintWriter writer = new PrintWriter("Favoritenliste.txt");
         writer.print("");
         writer.close();
     }

@@ -9,7 +9,7 @@ public class Favoriten {
     private JButton loeschenButton;
     private JButton zurückButton;
     private Hauptmenu hm1;
-    ListenVerwaltung kategorien = new ListenVerwaltung();
+    ListenVerwaltung liste = new ListenVerwaltung();
     private ListenVerwaltung m1;
 
     public void favoritenlisteFunktionen(JFrame frame) {
@@ -20,7 +20,7 @@ public class Favoriten {
         this.m1 = new ListenVerwaltung();
         String gespeicherteFavoriten = null;
         try {
-            gespeicherteFavoriten = kategorien.favoritenaufnahme();
+            gespeicherteFavoriten = liste.favoritenaufnahme();
         } catch (IOException e1) {
             e1.printStackTrace();
         }
