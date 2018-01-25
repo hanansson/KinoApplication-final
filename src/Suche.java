@@ -118,7 +118,6 @@ public class Suche {
                             SucheAusfuehren s = new SucheAusfuehren();
                             s.vergleichen(zeile, eingabe, eingabe1, eingabe2, eingabe3, eingabe4, eingabe5, neuerFilmeintrag);
                             if (neuerFilmeintrag.name != null) {
-                                //random Bedingung ...geht sicherlich auch schöner.
                                 gesamtEinträge.add(neuerFilmeintrag);
                             }
                         }
