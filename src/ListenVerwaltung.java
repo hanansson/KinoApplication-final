@@ -35,12 +35,12 @@ public class ListenVerwaltung {
         }
     }
 
-    public void writeToErgebnisliste(String s1) {
+    public void writeToErgebnisliste(String film) {
 
         try (FileWriter fw1 = new FileWriter("Ergebnisliste.txt", true);
              BufferedWriter bw1 = new BufferedWriter(fw1);
              PrintWriter out = new PrintWriter(bw1)) {
-            out.println(s1);
+            out.println(film);
         } catch (IOException e) {
             e.printStackTrace();
         }

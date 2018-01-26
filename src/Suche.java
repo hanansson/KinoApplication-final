@@ -126,8 +126,8 @@ public class Suche {
                 }
 
                     for (int i = 0; i < gesamtEinträge.size(); i++) {
-                        String s1 = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
-                        liste.writeToErgebnisliste(s1);
+                        String film = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
+                        liste.writeToErgebnisliste(film);
                     }
 
                 String ergebnisse = null;
