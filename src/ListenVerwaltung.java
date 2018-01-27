@@ -9,9 +9,9 @@ public class ListenVerwaltung {
             String line = br.readLine();
             int i = 0;
             while (line != null && i < 20) {
-                    i ++;
-                    sb.append(line);
-                    line = br.readLine();
+                i++;
+                sb.append(line);
+                line = br.readLine();
             }
             return sb.toString();
         } finally {

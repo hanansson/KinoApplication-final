@@ -17,6 +17,7 @@ public class Suche {
     private JComboBox datumCombo;
     private Hauptmenu hm1;
     private Suchergebnisse se1;
+    private KeineSuchergebnisse kse1;
 
     public ArrayList<Filmeintrag> gesamtEinträge = new java.util.ArrayList<Filmeintrag>();
     private ListenVerwaltung liste;
@@ -26,6 +27,7 @@ public class Suche {
         this.se1 = new Suchergebnisse();
         this.hm1 = new Hauptmenu(frame);
         this.liste = new ListenVerwaltung();
+        this.kse1 = new KeineSuchergebnisse();
 
         String zeile1 = null;
 
@@ -46,9 +48,9 @@ public class Suche {
                     genreCombo.addItem(zeile1);
                 }
             }
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
 
         try {
             BufferedReader brx1 = new BufferedReader(new FileReader("Kino.txt"));
@@ -125,10 +127,10 @@ public class Suche {
                     e1.printStackTrace();
                 }
 
-                    for (int i = 0; i < gesamtEinträge.size(); i++) {
-                        String film = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
-                        liste.writeToErgebnisliste(film);
-                    }
+                for (int i = 0; i < gesamtEinträge.size(); i++) {
+                    String film = ("Name: " + gesamtEinträge.get(i).name + " Genre: " + gesamtEinträge.get(i).genre + " Kino: " + gesamtEinträge.get(i).kino + " Datum: " + gesamtEinträge.get(i).datum + " Zeit: " + gesamtEinträge.get(i).zeit + " Preis: " + gesamtEinträge.get(i).preis);
+                    liste.writeToErgebnisliste(film);
+                }
 
                 String ergebnisse = null;
                 try {
@@ -142,6 +144,13 @@ public class Suche {
                     se1.ergebnisanzeigen(ergebnisse, frame);
                     frame.invalidate();
                     frame.validate();
+                } else {
+                    JFrame keinErgebnis = new JFrame("");
+                    keinErgebnis.setVisible(true);
+                    keinErgebnis.setContentPane(kse1.ksePanel);
+                    keinErgebnis.setSize(200, 100);
+                    keinErgebnis.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    kse1.keineSuchergebnisse(keinErgebnis);
                 }
             }
         });
